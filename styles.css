@@ -1,0 +1,29 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFFDF0;
+}
+
+h1, h2, h3, .font-title {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Electric Sparks Background Pattern */
+.spark-bg {
+    background-image: radial-gradient(#FFDE00 1.5px, transparent 1.5px), radial-gradient(#FF0000 1.5px, #FFFDF0 1.5px);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFDF0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFDE00;
+    border-radius: 999px;
+}
